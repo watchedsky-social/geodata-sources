@@ -8,5 +8,5 @@ var USAWeatherServiceZones []byte
 //go:embed us/zip_code_database.csv
 var USAPostalCodeDatabase []byte
 
-//go:embed us/zip-code-geojson/*.json
+//go:embed all:us/zip-code-geojson
 var USAPostalCodeGeoJSON embed.FS
